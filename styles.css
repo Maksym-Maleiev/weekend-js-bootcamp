@@ -103,6 +103,7 @@ img {
 
 .hero {
   position: relative;
+  margin-bottom: 60px;
   height: 480px;
 
   background-image: url("./img/hero-bg.jpg");
