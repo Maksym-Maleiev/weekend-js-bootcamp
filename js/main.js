@@ -12,7 +12,7 @@ const body = document.querySelector('body');
 console.log(logotype);
 
 function onLogoClick() {
-  body.style.backgroundColor = 'teal';
+  logotype.classList.add('is-hidden');
  };
 
 title.addEventListener('click', onLogoClick)
