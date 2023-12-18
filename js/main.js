@@ -8,4 +8,4 @@
 const title = document.querySelector(".cats-title");
 console.log(title);
 
-title.textContent = "Hello Max";
+title.style.color = 'tomato';
