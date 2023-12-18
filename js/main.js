@@ -6,16 +6,27 @@
 // console.log("Good bye");
 
 const title = document.querySelector(".cats-title");
-
 const logotype = document.querySelector('.site-logo img');
 const body = document.querySelector('body');
+
 console.log(logotype);
 
 function onLogoClick() {
-  logotype.classList.add('is-hidden');
+  logotype.classList.toggle('is-hidden');
+};
+ 
+title.addEventListener('click', onLogoClick);
+
+
+
+
+const catPhoto = document.querySelector(".cat-photo");
+
+function onPhotoClick() {
+  catPhoto.src = 'https://picsum.photos/200/300';
  };
 
-title.addEventListener('click', onLogoClick)
+catPhoto.addEventListener('click', onPhotoClick);
 
 // title.classList.remove('cats-title');
 
