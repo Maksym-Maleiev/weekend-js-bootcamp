@@ -8,4 +8,9 @@
 const title = document.querySelector(".cats-title");
 console.log(title);
 
-title.style.color = 'tomato';
+title.classList.remove('cats-title');
+
+console.log(title);
+
+// title.style.cssText = "color: tomato; font-size: 50px";
+// title.style.fontSize = "42px";
