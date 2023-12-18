@@ -9,14 +9,13 @@ const title = document.querySelector(".cats-title");
 
 const logotype = document.querySelector('.site-logo img');
 const body = document.querySelector('body');
-
 console.log(logotype);
 
 function onLogoClick() {
   body.style.backgroundColor = 'teal';
  };
 
-logotype.addEventListener('click', onLogoClick)
+title.addEventListener('click', onLogoClick)
 
 // title.classList.remove('cats-title');
 
