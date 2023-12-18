@@ -13,7 +13,7 @@ const body = document.querySelector('body');
 console.log(logotype);
 
 function onLogoClick() {
-  body.style.backgroundColor = '#0f3f3c';
+  body.style.backgroundColor = 'teal';
  };
 
 logotype.addEventListener('click', onLogoClick)
