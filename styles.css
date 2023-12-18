@@ -1,7 +1,7 @@
 /* Main-styles */
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1,
@@ -106,7 +106,7 @@ img {
   margin-bottom: 60px;
   height: 480px;
 
-  background-image: url("./img/hero-bg.jpg");
+  background-image: url('./img/hero-bg.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -264,4 +264,8 @@ img {
 .social-list__link:hover .social-list__icon,
 .social-list__link:focus .social-list__icon {
   fill: #f07f2e;
+}
+
+.is-hidden {
+  display: none;
 }
