@@ -41,5 +41,5 @@ const next = document.querySelector(".next");
 const prev = document.querySelector(".prev");
 
 new Siema({
-  selector: 'slider',
+  selector: slider,
 });
