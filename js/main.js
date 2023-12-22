@@ -36,8 +36,10 @@ catPhoto.addEventListener('click', onPhotoClick);
 // title.style.cssText = "color: tomato; font-size: 50px";
 // title.style.fontSize = "42px";
 
-// const slider = document.querySelector(".hero-list");
+const slider = document.querySelector(".hero-list");
+const next = document.querySelector(".next");
+const prev = document.querySelector(".prev");
 
 new Siema({
-  selector: '.hero-list',
+  selector: 'slider',
 });
