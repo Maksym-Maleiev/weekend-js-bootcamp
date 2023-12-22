@@ -106,9 +106,9 @@ img {
   height: 480px;
 }
 
-.hero.container {
-  height: 100%;
+.hero > .container {
   position: relative;
+  height: 100%;
 }
 
 .hero-list {
