@@ -23,9 +23,9 @@ title.addEventListener('click', onLogoClick);
 const catPhoto = document.querySelector(".cat-photo");
 
 function onPhotoClick() {
-  catPhoto.src = 'https://picsum.photos/200/300';
-  catPhoto.width = '288';
-  catPhoto.height = '361';
+  catPhoto.src = "https://picsum.photos/200/300";
+  catPhoto.width = "296";
+  catPhoto.height = "370";
  };
 
 catPhoto.addEventListener('click', onPhotoClick);
