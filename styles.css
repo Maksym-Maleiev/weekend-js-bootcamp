@@ -131,9 +131,17 @@ img {
   background-image: url('./img/hero-bg.jpg');
 }
 
+.hero-list__item.second {
+  background-image: url('./img/hero-bg-2.jpeg');
+}
+
+.hero-list__item.third {
+  background-image: url('./img/hero-bg-3.jpeg');
+}
+
 .greeting {
   position: absolute;
-  top: 236px;
+  bottom: 52px;
   left: 28px;
 
   padding: 24px;
