@@ -106,10 +106,20 @@ img {
   height: 480px;
 }
 
-.hero-item {
+.hero > .container {
+  height: 100%;
+  position: relative;
+}
+
+.hero-list {
+  height: 100%;
+  position: relative;
+}
+
+.hero-list__item {
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 480px;
 
   background-repeat: no-repeat;
   background-position: center;
@@ -117,7 +127,7 @@ img {
   border-radius: 16px;
 }
 
-.hero-item.first {
+.hero-list__item.first {
   background-image: url('./img/hero-bg.jpg');
 }
 
