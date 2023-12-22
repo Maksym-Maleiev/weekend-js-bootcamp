@@ -7,7 +7,6 @@
 
 const title = document.querySelector(".cats-title");
 const logotype = document.querySelector('.site-logo img');
-const body = document.querySelector('body');
 
 console.log(logotype);
 
@@ -36,3 +35,10 @@ catPhoto.addEventListener('click', onPhotoClick);
 
 // title.style.cssText = "color: tomato; font-size: 50px";
 // title.style.fontSize = "42px";
+
+const slider = document.querySelector('body');
+
+new Siema({
+  selector: '.slider',
+
+});
