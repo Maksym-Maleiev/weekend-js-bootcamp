@@ -102,15 +102,23 @@ img {
 /* Hero */
 
 .hero {
-  position: relative;
   margin-bottom: 60px;
   height: 480px;
+}
 
-  background-image: url('./img/hero-bg.jpg');
+.hero-item {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   border-radius: 16px;
+}
+
+.hero-item.first {
+  background-image: url('./img/hero-bg.jpg');
 }
 
 .greeting {
@@ -139,6 +147,29 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.5px;
+}
+
+.hero-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.hero-btn.next {
+  right: 36px;
+}
+
+.hero-btn.prev {
+  left: 36px;
 }
 
 /* Kittens */
