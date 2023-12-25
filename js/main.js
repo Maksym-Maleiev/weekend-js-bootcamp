@@ -45,6 +45,7 @@ const mySiema = new Siema({
   loop: true,
   duration: 500,
   easing: 'cubic-bezier(.17,.67,.32,1.34)',
+  perPage: 1,
 });
 
 function onNextClick() {
