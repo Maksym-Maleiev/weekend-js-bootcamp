@@ -69,4 +69,5 @@ const lightbox = new SimpleLightbox('.gallery a', {
 
 AOS.init({
   duration: 1200,
+  easing: 'easy-in',
 });
