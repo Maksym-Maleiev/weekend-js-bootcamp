@@ -63,5 +63,6 @@ prev.addEventListener('click', onPrevClick);
 
 
 const lightbox = new SimpleLightbox('.gallery a', {
-  /* options */
+closeText: "&#128514;",
+  fadeSpeed: 1000
 });
