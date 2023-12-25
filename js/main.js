@@ -62,6 +62,6 @@ next.addEventListener('click', onNextClick);
 prev.addEventListener('click', onPrevClick);
 
 
-const lightbox = new SimpleLightbox('.kittens a', {
+const lightbox = new SimpleLightbox('.gallery a', {
   /* options */
 });
