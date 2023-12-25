@@ -42,6 +42,9 @@ const prev = document.querySelector(".prev");
 
 const mySiema = new Siema({
   selector: slider,
+  loop: true,
+  duration: 500,
+  easing: 'ease-out',
 });
 
 function onNextClick() {
