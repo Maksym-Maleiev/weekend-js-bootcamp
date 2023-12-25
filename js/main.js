@@ -66,3 +66,5 @@ const lightbox = new SimpleLightbox('.gallery a', {
   closeText: 'x',
   fadeSpeed: 250
 });
+
+AOS.init();
