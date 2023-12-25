@@ -40,6 +40,17 @@ const slider = document.querySelector(".hero-list");
 const next = document.querySelector(".next");
 const prev = document.querySelector(".prev");
 
-new Siema({
+const mySiema = new Siema({
   selector: slider,
 });
+
+function onNextClick() {
+  mySiema.next(); 
+}
+
+function onPrevClick() {
+  mySiema.prev();
+}
+
+next.addEventListener('click', onNextClick);
+prev.addEventListener('click', onPrevClick);
