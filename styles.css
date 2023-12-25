@@ -243,12 +243,14 @@ img {
   flex-basis: calc((100% - 5 * 16px) / 6);
 }
 
-.gallery__item > img {
+.gallery__item > a {
+  display: block;
   border-radius: 16px;
+  overflow: hidden;
 }
 
-.gallery__item > img:hover,
-.gallery__item > img:focus {
+.gallery__item > a:hover,
+.gallery__item > a:focus {
   box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.25);
   cursor: pointer;
 }
